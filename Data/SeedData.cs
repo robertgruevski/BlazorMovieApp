@@ -60,44 +60,44 @@ namespace BlazorMovieApp.Data
 				new Movie
 				{
 					Title = "The Matrix",
-					ReleaseDate = new DateOnly(1999, 29, 3),
+					ReleaseDate = new DateOnly(1999, 3, 29),
 					Genre = "Sci-fi (Cyberpunk)",
 					Price = 5.00M
 				},
 				new Movie
 				{
 					Title = "2001: A Space Odyssey",
-					ReleaseDate = new DateOnly(1968, 2, 4),
-					Genre = "SCi-Fi",
-					Price = 0
+					ReleaseDate = new DateOnly(1968, 4, 2),
+					Genre = "Sci-fi",
+					Price = 5.00M
 				},
 				new Movie
 				{
 					Title = "Alien",
 					ReleaseDate = new DateOnly(1979, 5, 25),
 					Genre = "Sci-Fi",
-					Price = 0
+					Price = 5.00M
 				},
 				new Movie
 				{
 					Title = "Contact",
 					ReleaseDate = new DateOnly(1997, 4, 11),
 					Genre = "Sci-Fi",
-					Price = 0
+					Price = 5.00M
 				},
 				new Movie
 				{
 					Title = "Dune: Part One",
 					ReleaseDate = new DateOnly(2021, 10, 27),
 					Genre = "Sci-Fi",
-					Price = 0
+					Price = 5.00M
 				},
 				new Movie
 				{
 					Title = "Galaxy Quest",
 					ReleaseDate = new DateOnly(1999, 12, 25),
 					Genre = "Sci-fi (Comedy)",
-					Price = 0
+					Price = 5.00M
 				}
 			);
 			context.SaveChanges();
